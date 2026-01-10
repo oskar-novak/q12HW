@@ -22,7 +22,7 @@ tidy <- melt(raw, id = "religion",
 
 # Variable names in cells
 
-raw <- read.delim("data/weather.txt", check.names = F, na.strings = ".")
+raw <- read.delim("data/weather.txt", check.names = F, na.strings = ".") #annotation
 
 # Your Turn
 # ------------------------------------------
